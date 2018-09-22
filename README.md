@@ -1,4 +1,7 @@
 # AssemblyLanguageProjects
+Author: Randy Le
+Author's Email: 97randy.le@gmail.com
+Class : CPSC 240
 
 ## Prerequisites
 - CPSC 131: Data Structure Concept
