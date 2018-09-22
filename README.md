@@ -1,10 +1,10 @@
 # AssemblyLanguageProjects
-Author: Randy Le
-Author's Email: 97randy.le@gmail.com
-Class : CPSC 240
+Author: Randy Le<br>
+Author's Email: 97randy.le@gmail.com<br>
+Class : CPSC 240<br>
 
 ## Prerequisites
-- CPSC 131: Data Structure Concept
+- CPSC 131: Data Structure Concept<br>
 - MATH 270A: Mathematical Structure
   
 
