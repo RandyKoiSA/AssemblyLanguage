@@ -1,21 +1,24 @@
 #include <iostream>
 
 using namespace std;
-short on = 0;
-short c;
-short totaldoors;
+short on = 0, c, totaldoors;
+
 void displayA() {
 	cout << "There are " << on << " ones in this register.\n";
 }
+
 void displaybit8on() {
 	cout << "8 bit is on\n";
 }
+
 void displaybit8off() {
 	cout << "8 bit is off\n";
 }
+
 void displaytotaldoors() {
 	cout << "There are " << totaldoors << " opened.\n";
 }
+
 int main() {
 
 	_asm {
@@ -24,8 +27,7 @@ int main() {
 		mov		cx, 16;
 
 
-	//determine with how many are on; 
-	whileloop:
+	whileloop:					//determine which bits are on.
 		cmp		cx, 0;
 		je		bit8read;
 
@@ -44,8 +46,7 @@ int main() {
 		dec		cx;
 		jmp		whileloop;
 
-	//determine if bit 8 is on
-	bit8read:
+	bit8read:					//determin if bit 8 is on.
 		call	displayA;
 		//mov		bx, 1010111110111011b;
 		shr		bx, 7;
